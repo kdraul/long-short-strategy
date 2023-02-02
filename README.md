@@ -7,17 +7,17 @@ The project dives into analysis of relationships between the *annual average of 
 -----
 The project is divided into four parts which follows the general pattern of data analysis:
 
-**Part 1 - Collection of Data**:  
+### Part 1 - Collection of Data:  
 This includes choosing approximately **90 companies** for the analysis using *Stratified Random Sampling* and then **downloading of stock price data** of these companies using 'yfinance' api (Yahoo! Finance). The process of extracting the **financial ratios and financial growth** values can't be seen in the Jupyter Notebook since they were **manually obtained by reading 500+ Annual Reports** of the companies and those values were inserted in a comma-seperated values (.csv) file for each company.
 
-**Part 2 - Cleaning the Data and EDA**:  
+### Part 2 - Cleaning the Data and EDA:  
 This includes **removing errors and outliers** from the data, while also **removing any irrelevent data points** from the data. It is while conducting an exploratory analysis of the data using the **line charts, histograms and boxplots** that we detect the outliers (the extreme values) in the data. Then seperate '.csv' files were created for stock returns, volatility, financial ratios and financial growths to be used in the Part 3 Jupyter Notebook.
 
-**Part 3 - Regression Analysis**:  
+### Part 3 - Regression Analysis:  
 Each financial ratios and financial growths, stock returns and stock volatility are then analysed for relationships. The **dependent variable** for the regression is either the **stock returns or the volatility (risk)** of stock, and the **independent variable** being **EBITDA growth, Cash Flow from Operations (CFO) growth, CFO to EBITDA ratio or Debt-to-Equity ratio**.
 The variables which have significant relationship are then chosen for the next part which is the long-short equity strategy.
 
-**Part 4 - Testing the Long-Short Equity Strategy**:  
+### Part 4 - Testing the Long-Short Equity Strategy:  
 Finally, the significant relationship from the Part 3 is used in the long-short strategy. The **daily returns are segregated into 5 Quintiles** based on the relationship. Then, the **difference of returns** of the top and the bottom quintiles is used as the basis **calculating the Alpha $\alpha$** of the strategy i.e. the excess returns over and above the market returns. The alpha tells us the significance of the long-short strategy.
 
 The outcomes of the regression analyses, the observations and the Alpha generated from the Long-Short strategy are all in the Jupyter Notebooks. You're welcomed to have a look at them. Thank you! :)
