@@ -18,6 +18,6 @@ Each financial ratios and financial growths, stock returns and stock volatility 
 The variables which have significant relationship are then chosen for the next part which is the long-short equity strategy.
 
 **Part 4** - Testing the Long-Short Equity Strategy:
-Finally, the significant relationship from the Part 3 is used in the long-short strategy. The **daily returns are segregated into 5 Quintiles** based on the relationship. Then, the **difference of returns** of is used as the basis **calculating the Alpha $\alpha$** of the strategy i.e. the excess returns over and above the market returns. The alpha tells us the significance of the long-short strategy.
+Finally, the significant relationship from the Part 3 is used in the long-short strategy. The **daily returns are segregated into 5 Quintiles** based on the relationship. Then, the **difference of returns** of the top and the bottom quintiles is used as the basis **calculating the Alpha $\alpha$** of the strategy i.e. the excess returns over and above the market returns. The alpha tells us the significance of the long-short strategy.
 
 The outcomes of the regression analyses, the observations and the Alpha generated from the Long-Short strategy are all in the Jupyter Notebooks. You're welcomed to have a look at them. Thank you! :)
