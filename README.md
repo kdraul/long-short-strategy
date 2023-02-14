@@ -3,7 +3,7 @@ This project is a result of the combination of the assignments from the "Data-Dr
 
 Several important libraries of Python like NumPy, pandas, Matplotlib, seaborn and statsmodels, that are in extensive use today in the field of Data Science, were used for the analysis.
 
-The project delves into the analysis of relationships between the *annual average of the stock price returns* and their *annual volatility in a year* and the several financial benchmarks like the *Cash Flow from Operations (CFO) to EBITDA ratio, Debt-to-Equity ratio, EBITDA growth, Cash Flow from Operations (CFO) growth*. The strength of each relationship is tested using t-test for correlation, and out of these, the statistically significant relationship is chosen for the *Long-Short strategy*. And in the final leg of analysis, the strategy is tested for significance.
+The project delves into the analysis of relationships between the *annual average of the stock price returns* and their *annual volatility in a year* and the several financial benchmarks like the *Cash Flow from Operations (CFO) to EBITDA ratio, Debt-to-Equity ratio, EBITDA growth, Cash Flow from Operations (CFO) growth*. The strength of each relationship is tested using t-test for correlation, and out of these, the statistically significant relationship is chosen for the *Long-Short strategy*. And in the final leg of the analysis, the strategy is tested for significance.
 -----
 The project is divided into four parts which follows the general pattern of data analysis:
 
