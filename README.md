@@ -8,7 +8,7 @@ The project delves into the analysis of relationships between the *annual averag
 The project is divided into four parts which follows the general pattern of data analysis:
 
 ### Part 1 - Collection of Data:  
-This includes choosing approximately **90 companies** for the analysis using *Stratified Random Sampling* and then **downloading of stock price data** of these companies using 'yfinance' api (Yahoo! Finance). The process of extracting the **financial ratios and financial growth** values can't be seen in the Jupyter Notebook since they were **manually obtained by reading 500+ Annual Reports** of the companies and those values were inserted in a comma-seperated values (.csv) file for each company.
+This includes choosing approximately **90 companies** for the analysis using *Stratified Random Sampling* and then **downloading of stock price data** of these companies using 'yfinance' api (Yahoo! Finance). The process of extracting the **financial ratios and financial growth** values can't be seen in the Jupyter Notebook since they were **manually obtained by skimming through 470 Annual Reports** of the companies and those values were inserted in a comma-seperated values (.csv) file for each company.
 
 ### Part 2 - Cleaning the Data and EDA:  
 This includes **removing errors and outliers** from the data, while also **removing any irrelevent data points** from the data. It is while conducting an exploratory data analysis using the **line charts, histograms and boxplots** that we detect the outliers (the extreme values) in the data. Then seperate '.csv' files were created for stock returns, volatility, financial ratios and financial growths to be used in the Part 3 Jupyter Notebook.
